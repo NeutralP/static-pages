@@ -1,5 +1,6 @@
 ---
 import "@fontsource/outfit";
+import "../../styles/challenge.css"
 ---
 
 <html lang="en">
@@ -14,14 +15,16 @@ import "@fontsource/outfit";
     <meta name="generator" content={Astro.generator} />
     <title>QR Code Component</title>
   </head>
-  <body class="h-screen flex justify-center items-center">
-    <div class="card-wrapper">
-      <div class="card">
-        <img src="/qr-code-component/image-qr-code.png" />
-        <div class="font-bold text-slate-900">
-          Improve your front end skills by building projects
+  <body class="h-screen flex justify-center items-center bg-slate-300">
+    <div class="card-wrapper bg-white rounded-2xl shadow-xl">
+      <div class="card flex flex-1 flex-col items-center justify-center">
+        <div class="img-wraper w-80 h-80 p-4">
+            <img src="/qr-code-component/image-qr-code.png" class="rounded-2xl" />
         </div>
-        <div class="font-normal text-slate-500">
+        <div class="font-outfit font-bold text-slate-700 text-2xl text-center w-70 pb-4">
+          Improve your front-end skills by building projects
+        </div>
+        <div class="font-outfit font-normal text-slate-500 text-center w-70 pb-10">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </div>
@@ -29,7 +32,8 @@ import "@fontsource/outfit";
     </div>
 
     <style>
-      @import "tailwindcss";
+      
+      
     </style>
   </body>
 </html>
