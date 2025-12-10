@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.14",
+    "@fontsource/outfit": "^5.2.8",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
