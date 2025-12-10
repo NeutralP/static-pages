@@ -11,21 +11,25 @@ import "../../styles/challenge.css"
     <meta name="generator" content={Astro.generator} />
     <title>QR Code Component</title>
   </head>
-  <body class="flex h-screen items-center justify-center bg-slate-300">
-    <div class="card-wrapper rounded-2xl bg-white shadow-2xl">
-      <div class="card flex flex-1 flex-col items-center justify-center">
-        <div class="img-wraper h-80 w-80 p-4">
-          <img src="/qr-code-component/image-qr-code.png" class="rounded-2xl" />
-        </div>
-        <div class="font-outfit w-70 pb-4 text-center text-2xl font-bold text-slate-700">
-          Improve your front-end skills by building projects
-        </div>
-        <div class="font-outfit w-70 pb-10 text-center font-normal text-slate-500">
-          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <body class="flex h-screen items-center justify-center bg-slate-500">
+    <main>
+      <div class="card-wrapper rounded-2xl bg-white shadow-2xl">
+        <div class="card flex flex-1 flex-col items-center justify-center">
+          <div class="img-wraper h-80 w-80 p-4">
+            <img
+              src="/qr-code-component/image-qr-code.png"
+              alt="QR code for product information"
+              class="rounded-2xl"
+            />
+          </div>
+          <h1 class="font-outfit w-70 pb-4 text-center text-2xl font-bold text-slate-700">
+            Improve your front-end skills by building projects
+          </h1>
+          <div class="font-outfit w-70 pb-10 text-center font-normal text-slate-500">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          </div>
         </div>
       </div>
-    </div>
-
-    <style></style>
+    </main>
   </body>
 </html>
